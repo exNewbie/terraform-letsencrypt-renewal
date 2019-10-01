@@ -54,3 +54,13 @@ variable "ssm_ca2" {
   type        = string
   description = "Name of Parameter store that stores part 2 of CA certs"
 }
+
+### Resources ###
+
+resource "random_pet" "name_suffix" {
+  length = 1
+}
+
+### Data ###
+
+data "aws_caller_identity" "current" {}

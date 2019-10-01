@@ -1,0 +1,1 @@
+{ "S3_BUCKET": "your-s3-bucket", "S3_PREFIX": "your-s3-bucket-prefix", "EMAIL": "email@example.com", "DOMAIN": "*.example.com", "SSM_SSL_KEY": "parameter-store-key", "SSM_SSL_CA_1": "parameter-store-ca1", "SSM_SSL_CA_2": "parameter-store-ca2", "SSM_SSL_CERT": "parameter-store-crt" }
